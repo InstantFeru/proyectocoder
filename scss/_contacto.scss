@@ -1,0 +1,29 @@
+.contacto {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background-color: rgba(0, 0, 0, 0.712);
+    & .formulario {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 2rem;
+        & label {
+            font-family: 'Heebo', sans-serif;
+            color: whitesmoke;
+            font-size: 0.9rem;
+        }   
+    }
+    & .atlus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+    }
+}
+.mona {
+    margin-top: 2.8rem;
+    margin-bottom: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

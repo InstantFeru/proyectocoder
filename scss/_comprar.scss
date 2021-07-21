@@ -1,0 +1,29 @@
+.product {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    & .pImg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    & .pDesc {
+        & h1 {
+            font-size: 2rem;
+            color: black;
+        }
+        & h2 {
+            font-family: 'Bangers', cursive;
+            font-size: 2rem;
+            color: black;
+        }
+        & p {
+            font-family: 'Heebo', sans-serif;
+            color: black;
+        }
+        & .card-title {
+            font-family: 'Heebo', sans-serif;
+            color: black;
+            font-weight: 600;
+        }
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona 5 | Contacto</title>
+    <!-- Link a Bootstrap | CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Hoja de estilo propia -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Fuentes Google Fonts -->
+        <!-- Bangers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+        <!-- Heebo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap" rel="stylesheet">
+        <!-- Otomanopee One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="container-fluid header">
+        <nav class="row">
+            <div class="col-md-3 col-xxl-3 logo">
+                <a href="../index.html"><img src="../images/p5logo.png" class="img-fluid" alt="Logo Persona 5"></a>
+                <a href="../index.html"></a><img src="../images/p5logoalt.png" class="logoalt" alt="Logo Persona 5"></a>
+            </div>
+            <div class="col-md-9 col-xxl-9 col-sm-12 menu">
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="personajes.html">PERSONAJES</a></li>
+                    <li><a href="galeria.html">GALERIA</a></li>
+                    <li><a href="comprar.html">COMPRAR</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container contacto">
+            <div class="row">
+               <div class="col-lg-7 col-md-12 formulario">
+                    <form action="">
+                        <div>
+                            <h1>Contactanos!</h1>
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" name="nombre" placeholder="Nombre.." maxlength="25" required>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">Dirección de E-mail</label>
+                            <input type="email"name="email" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div>
+                            <label for="version">Qué versión del juego posee/quiere adquirir?</label>
+                            <select name="version" id="version">
+                                <option value="standar">Standard Edition</option>
+                                <option value="deluxe">Deluxe Edition</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="newsletter">Quiere suscribirse al newsletter?</label>
+                            <input type="checkbox" name="newsletter" id="">
+                        </div>
+                        <div>
+                            <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Reiniciar Campos">
+                        </div>
+                    </form>  
+                </div> 
+                <div class="col-lg-5 col-md-12 atlus">
+                    <img src="../images/atluslogo.png" class="img-fluid" alt="">    
+                </div>
+            </div>
+        </div>
+                <div class="container mona">
+                    <div class="row">
+                        <div class="col-md-4"><img src="../images/mona.png" alt="La mascota de Persona 5, Morgana."></div>
+                    </div>
+                </div>               
+    </main>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-xl-6 col-xxl-6 col-sm-6 platforms">
+                <img src="../images/consoles.png" alt="Persona 5 está disponible en PS4, PS5, Nintendo Switch,Xbox One,Xbox Series S y Steam">
+            </div>
+            <div class="col-md-6 col-xl-6 col-xxl-6 col-sm-6 rrss">
+                <a href="https://www.instagram.com/atlus_west/?hl=en" target="_blank" rel="noopener noreferrer"><img src="../images/iglogo.png" alt="Link a Instagram de Atlus"></a>
+                <a href="https://www.facebook.com/AtlusWest/" target="_blank" rel="noopener noreferrer"><img src="../images/fblogo.png" alt="Link a Facebook de Atlus"></a>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+@import "index";
+@import "personajes";
+@import "galeria";
+@import "comprar";
+@import "contacto";
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+body {
+    min-height: 100%;
+    background-image: url(../images/city_bg2.png), url(../images/filmeffect2.png), linear-gradient(to bottom right, red,55%,black); 
+    background-size: 80%, cover, cover;
+    background-position: bottom;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header {
+    background-color: rgba(47, 79, 79, 0.356);
+    & .menu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        // background-image: url(../images/dialog.png);
+        // background-repeat: no-repeat;
+        // background-position-x: right;
+        & li {
+            display: inline-block;
+            padding: 1rem;
+            }
+        & a {
+            font-family: 'Otomanopee One', sans-serif;
+            font-weight: 700;
+            font-size: 2rem;
+            text-decoration: none;
+            color: whitesmoke;
+            &:hover {
+                color: red;
+                transition: 200ms;
+            }
+            }
+        }
+    & .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & img {
+            padding: 0.4rem;
+            max-height: 10rem;
+        }
+        & .logoalt {
+            display: none;
+            & img {
+                width: 30%;
+            }
+        }
+    }
+}
+footer {
+    background-color: rgba(47, 79, 79, 0.8);
+    & .rrss {
+        display: flex;
+        justify-content: flex-end;
+        & img {
+            padding: 0.5rem;
+        }
+    }
+    & .platforms {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+@import "_media.scss";

@@ -1,0 +1,54 @@
+.galeria  {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.671);
+    & img {
+        width: 512px;
+        height: 288px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    & img:hover {
+        transform: scale(1.2);
+    }
+    & h1 {
+        text-align: center;
+    } 
+    & .titular {
+        width: 100%;
+        padding-top: 1rem;
+    }   
+}
+.gameplay {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    background-color: rgba(0, 0, 0, 0.678);
+    & .descvideo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        & p {
+            font-family: 'Heebo', sans-serif;
+            color: whitesmoke;
+        }
+    }
+    & .iframewrapper {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%;
+        & iframe {
+            border-radius: 1rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border:none;
+        }
+}
+}
